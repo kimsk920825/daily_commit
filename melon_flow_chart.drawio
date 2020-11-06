@@ -1,11 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2020-11-06T04:01:48.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="7PF6Lvey_x5O_Rd37fkU" version="13.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-06T05:14:09.940Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="3POZ746n21HnwKoFGMQI" version="13.9.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1117" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1845" dy="2292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="f0t6gj6eq8niyUoXd5JS-0" value="모듈 임포트&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="90" y="50" width="120" height="60" as="geometry" />
+        <mxCell id="yOtUPugijvkV7RmDDwo4-1" value="for 반복문&amp;nbsp;&lt;br&gt;songs리스트 안에 있는 항목들을 song에 담아라." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=right;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="72" y="-870" width="446" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yOtUPugijvkV7RmDDwo4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOtUPugijvkV7RmDDwo4-3" target="yOtUPugijvkV7RmDDwo4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOtUPugijvkV7RmDDwo4-3" value="&lt;b&gt;title&lt;/b&gt;&lt;br&gt;1.담고 나서는 html요소중 내가 원하는 항목을 선택하고&lt;br&gt;2.[0]로 리스트를 없애준다음&lt;br&gt;3. 문자열만 남겨주고 나머지는 삭제하라.&lt;br&gt;&lt;b&gt;singer&lt;br&gt;&lt;/b&gt;1.담고 나서는 html요소중 내가 원하는 항목을 선택하고&lt;br&gt;2.[0]로 리스트를 없애준다음&lt;br&gt;3. 문자열만 남겨주고 나머지는 삭제하라.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=right;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="72" y="-770" width="450" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="yOtUPugijvkV7RmDDwo4-4" value="print&lt;br&gt;title,singer를 중간에 &#39;|&#39;문자와 함께 출력하라" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="-420" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yOtUPugijvkV7RmDDwo4-7" value="&lt;div&gt;from selenium import webdriver&lt;/div&gt;&lt;div&gt;driver = webdriver.Chrome(&#39;c:/chromedriver&#39;)&lt;/div&gt;&lt;div&gt;url = &#39;https://www.melon.com/chart/day/index.htm&#39;&lt;/div&gt;&lt;div&gt;driver.get(url)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;from bs4 import BeautifulSoup&lt;/div&gt;&lt;div&gt;html = driver.page_source&lt;/div&gt;&lt;div&gt;soup = BeautifulSoup(html,&#39;lxml&#39;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;songs = soup.select(&#39;#lst50,#lst100&#39;) #select 어법으로서 두의 리스트를 합쳐준다.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="148.5" y="-1140" width="343" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="yOtUPugijvkV7RmDDwo4-10" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOtUPugijvkV7RmDDwo4-7" target="yOtUPugijvkV7RmDDwo4-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="-900" as="sourcePoint" />
+            <mxPoint x="730" y="-950" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
