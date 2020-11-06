@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2020-11-06T02:42:04.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" version="13.9.2" etag="ELh4BwpV0X15XGQkhei0" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-06T03:13:34.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="-67_l6D0uoiJmzQShl3S" version="13.9.2" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2100" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="v-yAmhgGrMYpuRtusbak-0" value="&lt;div&gt;임포트&lt;/div&gt;&lt;div&gt;from selenium import webdriver&lt;/div&gt;&lt;div&gt;driver = webdriver.Chrome(&#39;c:/chromedriver&#39;)&lt;/div&gt;&lt;div&gt;url = &#39;https://www.daum.net/&#39;&lt;/div&gt;&lt;div&gt;driver.get(url)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="10" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="v-yAmhgGrMYpuRtusbak-1" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="v-yAmhgGrMYpuRtusbak-0" target="v-yAmhgGrMYpuRtusbak-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="250" as="sourcePoint" />
+            <mxPoint x="414" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v-yAmhgGrMYpuRtusbak-3" value="로그인&amp;nbsp;&lt;br&gt;driver.find_element_by_xpath(&#39;//*[@id=&quot;inner_login&quot;]/a[2]&#39;).click()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="17" y="270" width="196" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="v-yAmhgGrMYpuRtusbak-6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="121.2899999999999" y="420.0000000000001" as="sourcePoint" />
+            <mxPoint x="121.2899999999999" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v-yAmhgGrMYpuRtusbak-7" value="&lt;div&gt;아이디 입력&lt;/div&gt;&lt;div&gt;daum_id = &#39;sksean92@gmail.com&#39;&lt;/div&gt;&lt;div&gt;daum_pw = &#39;rlatmdrbsmscjswodlek*&#39;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="24" y="520" width="196" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="v-yAmhgGrMYpuRtusbak-8" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="121.2899999999999" y="670" as="sourcePoint" />
+            <mxPoint x="121.2899999999999" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v-yAmhgGrMYpuRtusbak-9" value="이메일/패스워드에 아이디 비번 입력값 떤지는 코드.&amp;nbsp;&lt;br&gt;execute_script()함수 이용.&amp;nbsp;&lt;br&gt;driver.execute_script(&quot;document.getElementsByName(&#39;email&#39;)[0].value=\&#39;&quot;+daum_id+&quot;\&#39;&quot;)driver.execute_script(&quot;document.getElementsByName(&#39;password&#39;)[0].value=\&#39;&quot;+daum_pw+&quot;\&#39;&quot;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-131" y="770" width="506" height="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
