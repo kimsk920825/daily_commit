@@ -1,1 +1,123 @@
-<mxfile host="app.diagrams.net" modified="2020-11-06T12:28:49.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.9.2" etag="xkv1NOmPSQpYTn6USsYi" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-06T14:35:01.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="FBE2UecPv1_Tjes3cFkS" version="13.9.2" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="788" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-0" value="&lt;h1&gt;API SETTING&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="25" y="10" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-1" value="네이버API싸이트 로그인" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-2" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJ0c68hfTLXPBz-vxFFA-1" target="zJ0c68hfTLXPBz-vxFFA-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="59" y="110" as="sourcePoint" />
+            <mxPoint x="67" y="131" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-3" value="오픈 API신청&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="130" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-5" value="정보 입력&lt;br&gt;1. 애플리케이션 이름:&amp;nbsp;&lt;br&gt;2. 사용 API: 교과서 내용: 검색, 데이터랩(검색어 트렌드), 데이터랩(쇼핑인사이트),Clova Face Recognition" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="190" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-8" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJ0c68hfTLXPBz-vxFFA-3" target="zJ0c68hfTLXPBz-vxFFA-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="79.19642857142856" y="100" as="sourcePoint" />
+            <mxPoint x="77" y="141" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-9" value="비로그인 오픈 API 서비스 환경&lt;br&gt;1. 환경추가 : WEB 설정&lt;br&gt;2. http://localhost" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="310" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-10" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJ0c68hfTLXPBz-vxFFA-5" target="zJ0c68hfTLXPBz-vxFFA-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJ0c68hfTLXPBz-vxFFA-9" target="zJ0c68hfTLXPBz-vxFFA-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-12" value="개발자 센터 진입: https://developers.naver.com/apps/#/list&lt;br&gt;아이디:&amp;nbsp;&lt;span&gt;b0yovbdpbgMr0qwjDts2&lt;br&gt;&lt;/span&gt;비번:&amp;nbsp;&lt;span&gt;9amWDulnl8&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="450" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-13" value="&lt;h1&gt;Naver_Blog_API&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="10" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-14" value="블로그: https://openapi.naver.com/v1/search/blog.json&lt;br&gt;뉴스:https://openapi.naver.com/v1/search/news.json&lt;br&gt;책:https://openapi.naver.com/v1/search/book.json&lt;br&gt;백과사전:https://openapi.naver.com/v1/search/encyc.json&lt;br&gt;영화: https://openapi.naver.com/v1/search/movie.json&lt;br&gt;카페글:https://openapi.naver.com/v1/search/cafearticle.json&lt;br&gt;지식인:https://openapi.naver.com/v1/search/kin.json&lt;br&gt;웹문서:https://openapi.naver.com/v1/search/webkr.json&lt;br&gt;쇼핑:https://openapi.naver.com/v1/search/shop.json" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="295" y="60" width="320" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJ0c68hfTLXPBz-vxFFA-14" target="zJ0c68hfTLXPBz-vxFFA-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="230" as="sourcePoint" />
+            <mxPoint x="400" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-16" value="import urllib.request&lt;br&gt;client_id =&amp;nbsp;&lt;br&gt;client_secret =&amp;nbsp;&lt;br&gt;encText = urllib.parse.quote(&quot;_____&quot;)&lt;br&gt;url = &quot;https://openapi.naver.com/v1/search/blog.json&quot; + encText&lt;br&gt;request = urllib.request.Request(url)&lt;br&gt;request.add_header(&quot;X-Naver-Client-Id&quot;, client_id)&lt;br&gt;request.add_header(&quot;X-Naver-Client-Secret&quot;, client_secret" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="310" width="370" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJ0c68hfTLXPBz-vxFFA-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="310" as="sourcePoint" />
+            <mxPoint x="455" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJ0c68hfTLXPBz-vxFFA-18" target="zJ0c68hfTLXPBz-vxFFA-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-18" value="잘 작동하는지 검사:&lt;br&gt;response = urllib.request.urlopen(request)&lt;br&gt;만약 output이 200이면 통신이 잘 통하고 있다는 뜻.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="303.75" y="540" width="302.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-25" value="주요 오류 코드 가이드:&lt;br&gt;https://developers.naver.com/docs/common/openapi.guide/errorcode.md" style="shape=tape;whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="700" y="512.5" width="417.5" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-27" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJ0c68hfTLXPBz-vxFFA-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="600" as="sourcePoint" />
+            <mxPoint x="455" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-28" value="response 타입 검사:&lt;br&gt;type(response)&lt;br&gt;결과: http.client.HTTPResponse" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="670" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-29" value="print(response.read().decode(&#39;utf-8&#39;)&lt;br&gt;response에 read()로 결과를 읽고, 한글을 해석하기 위해 decode옵션을 utf-8로 설정하면 관련된 블로그 정보가 naver서버로부터 추출되어 출력된다.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="300" y="770" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-30" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJ0c68hfTLXPBz-vxFFA-28" target="zJ0c68hfTLXPBz-vxFFA-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="580" as="sourcePoint" />
+            <mxPoint x="420" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-31" value="&lt;h1&gt;Naver_BOOK_API&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1241" y="10" width="239" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-33" value="&lt;h1&gt;URL은 만드는 것!&lt;/h1&gt;&lt;div&gt;{&quot;요청변수명&quot;:&quot;query&quot;,&quot;display&quot;,&quot;start&quot;,&quot;sort&quot;}&lt;/div&gt;&lt;div&gt;{&quot;타입&quot;:&quot;string&quot;,&quot;integer&quot;,&quot;integer&quot;,&quot;string&quot;,&quot;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1240" y="70" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-34" value="&lt;br&gt;def create_url (api_node, search_text, start_num, disp_num):&lt;br&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; base = &quot;&lt;/span&gt;&lt;span&gt;https://openapi.naver.com/v1/search&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; node = &quot;/&quot; + api_node + &quot;.json&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; param_query = &quot;?query=&quot; + urllib.parse.quote(search_text)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; param_start = &quot;&amp;amp;start=&quot; + str(start_num)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; param_disp = &quot;&amp;amp;display=&quot; + str(disp_num)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; return base + node + param_query + param_start + param_disp&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;create_url(&quot;book&quot;, &quot;TEST&quot;, 1, 10)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="200" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-35" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJ0c68hfTLXPBz-vxFFA-31" target="zJ0c68hfTLXPBz-vxFFA-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1350" y="160" as="sourcePoint" />
+            <mxPoint x="1400" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-36" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zJ0c68hfTLXPBz-vxFFA-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1360" y="150" as="sourcePoint" />
+            <mxPoint x="1400" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
