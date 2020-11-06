@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-06T22:05:33.152Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="8uoxWxsDVeRnr2_BC2jP" version="13.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-06T22:48:11.443Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="5HRgvh14WupvQo6V5esz" version="13.9.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="186" dy="143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1598" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -172,11 +172,19 @@
             <mxPoint x="1570" y="1940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJ0c68hfTLXPBz-vxFFA-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360.0000000000002" y="2030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zJ0c68hfTLXPBz-vxFFA-55" value="result_search.&lt;b&gt;&lt;font color=&quot;#ffff00&quot;&gt;info()&lt;/font&gt;&lt;br&gt;출력 결과의 index는 분명 0에서 99가 세번 반복됬을 것이다.&amp;nbsp;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1224.75" y="1910" width="270.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zJ0c68hfTLXPBz-vxFFA-60" value="&lt;b&gt;이를 0부터 299까지 바꾸고 싶다면&amp;nbsp;&lt;br&gt;reset_index(drop=True) 사용&lt;br&gt;result_search = result_search.reset_index (drop = True)&lt;br&gt;&lt;/b&gt;" style="shape=tape;whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1570" y="1890" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-62" value="&lt;div style=&quot;&quot;&gt;&lt;span&gt;writer =ExcelWriter(&quot;경로/이름.xlsx&quot;, engine = &#39;xlsxwriter&#39;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;result_search to_excel(writer, sheet_name=&#39;Sheet1&#39;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;workbook = writer.book&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;worksheet = writer.sheets[&#39;sheet1&#39;]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;format_center = workbook.add_format(&#39;{text_wrap&#39;:True})&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;format_center.set_align(&#39;center&#39;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;format_center.set_align(&#39;vcenter&#39;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;worksheet.set_column(&#39;A:A&#39; ,5)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;worksheet.set_column(&#39;B:B&#39; ,90, format_center)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;worksheet.set_column(&#39;C:C&#39;,40,format_center)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;worksheet.set_column(&#39;D:D&#39;,15)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;writer.save()&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1210" y="2028" width="310.25" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
