@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-06T14:35:01.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="FBE2UecPv1_Tjes3cFkS" version="13.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-06T15:08:36.695Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="FnbPeCTZkMSLf59EifAB" version="13.9.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="788" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2703" dy="1754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -102,7 +102,7 @@
         <mxCell id="zJ0c68hfTLXPBz-vxFFA-33" value="&lt;h1&gt;URL은 만드는 것!&lt;/h1&gt;&lt;div&gt;{&quot;요청변수명&quot;:&quot;query&quot;,&quot;display&quot;,&quot;start&quot;,&quot;sort&quot;}&lt;/div&gt;&lt;div&gt;{&quot;타입&quot;:&quot;string&quot;,&quot;integer&quot;,&quot;integer&quot;,&quot;string&quot;,&quot;}&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1240" y="70" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zJ0c68hfTLXPBz-vxFFA-34" value="&lt;br&gt;def create_url (api_node, search_text, start_num, disp_num):&lt;br&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; base = &quot;&lt;/span&gt;&lt;span&gt;https://openapi.naver.com/v1/search&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; node = &quot;/&quot; + api_node + &quot;.json&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; param_query = &quot;?query=&quot; + urllib.parse.quote(search_text)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; param_start = &quot;&amp;amp;start=&quot; + str(start_num)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; param_disp = &quot;&amp;amp;display=&quot; + str(disp_num)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; return base + node + param_query + param_start + param_disp&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;create_url(&quot;book&quot;, &quot;TEST&quot;, 1, 10)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-34" value="#함수 선언&lt;br&gt;def create_url (api_node, search_text, start_num, disp_num):&lt;br&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; base = &quot;&lt;/span&gt;&lt;span&gt;https://openapi.naver.com/v1/search&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; node = &quot;/&quot; + api_node + &quot;.json&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; param_query = &quot;?query=&quot; + urllib.parse.quote(search_text)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; param_start = &quot;&amp;amp;start=&quot; + str(start_num)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; param_disp = &quot;&amp;amp;display=&quot; + str(disp_num)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; return base + node + param_query + param_start + param_disp&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;create_url(&quot;book&quot;, &quot;TEST&quot;, 1, 10)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1160" y="200" width="400" height="160" as="geometry" />
         </mxCell>
         <mxCell id="zJ0c68hfTLXPBz-vxFFA-35" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJ0c68hfTLXPBz-vxFFA-31" target="zJ0c68hfTLXPBz-vxFFA-33">
@@ -116,6 +116,42 @@
             <mxPoint x="1360" y="150" as="sourcePoint" />
             <mxPoint x="1400" y="110" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-37" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1359.58" y="360" as="sourcePoint" />
+            <mxPoint x="1359.58" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-38" value="#함수 선언&lt;br&gt;def create_url (api_node, search_text, start_num, disp_num):&lt;br&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; base = &quot;&lt;/span&gt;&lt;span&gt;https://openapi.naver.com/v1/search&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; node = &quot;/&quot; + api_node + &quot;.json&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; param_query = &quot;?query=&quot; + urllib.parse.quote(search_text)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; param_start = &quot;&amp;amp;start=&quot; + str(start_num)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; param_disp = &quot;&amp;amp;display=&quot; + str(disp_num)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; return base + node + param_query + param_start + param_disp&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;create_url(&quot;book&quot;, &quot;TEST&quot;, 1, 10)&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="410" width="400.5" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-39" value="# 코드 작성&lt;br&gt;import jason&lt;br&gt;&lt;br&gt;client_id = &quot;&amp;nbsp; &amp;nbsp; &quot;&lt;br&gt;client_secret = &quot;&amp;nbsp; &amp;nbsp; &quot;&lt;br&gt;&lt;br&gt;url = create_url (api_node, search_text, start_num, disp_num)&lt;br&gt;request = urllib.request.Request(url)&lt;br&gt;request.add_header(&quot;X-Naver-Client-Id&quot;, client_id)&lt;br&gt;request.add_header(&quot;X-Naver-Client-Secret&quot;, client_secret)&lt;br&gt;&lt;br&gt;response = urllib.request.urlopen(request)&lt;br&gt;&lt;br&gt;result = json.loads(response.read().decode(&#39;utf-8&#39;)&lt;br&gt;result" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1150" y="620" width="410.5" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-40" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1350" y="569.9999999999999" as="sourcePoint" />
+            <mxPoint x="1350" y="619.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-43" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1350" y="890" as="sourcePoint" />
+            <mxPoint x="1350" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-44" value="display 항목을 조회&lt;br&gt;result[&#39;display&#39;]&lt;br&gt;검색결과조회&lt;br&gt;result[&#39;items&#39;]&lt;br&gt;검색결과길이출력&lt;br&gt;len(result[&#39;items&#39;]&lt;br&gt;검색결과 items에서 제목 정보만 얻기.&lt;br&gt;titles = [result[&#39;items&#39;][n]]&#39;title&#39;] for n in range (3)]&lt;br&gt;검색결과 items에서 작가 정보만 얻기.&lt;br&gt;authors = [result[&#39;items&#39;][n][&#39;author&#39;] for n in range(3)]&lt;br&gt;검색결과 items에서 책 출간 일 정보만 얻기.&lt;br&gt;pubdates = [result[&#39;items&#39;][n][&#39;pubdate&#39;] for n in range(3)]&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1190" y="940" width="310" height="321" as="geometry" />
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-45" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zJ0c68hfTLXPBz-vxFFA-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1359.67" y="1100" as="sourcePoint" />
+            <mxPoint x="1345" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJ0c68hfTLXPBz-vxFFA-47" value="import pandas as pd&amp;nbsp;&lt;br&gt;pd.DateFrame({&#39;책제목&#39;:titles, &#39;작가&#39;:authors,&#39;출판일&#39;:pubdates})" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1190" y="1350" width="310" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
